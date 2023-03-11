@@ -9,3 +9,5 @@ The program also includes an update feature, which allows users to modify employ
 Finally, the program includes a delete feature, which allows users to remove employee records from the text file. Users can input the name of the employee they want to delete, and the program will remove the corresponding record from the file.
 
 Overall, our Employee Information System with File Handling is a useful tool for managing employee data in a simple and efficient manner. It allows users to input and save employee information to a text file, and perform CRUD operations to modify or delete the data as needed. The program is easy to use and provides valuable insights into employee information, helping businesses and organizations to manage their workforce more effectively.
+
+![Java-Logo](https://user-images.githubusercontent.com/98956159/193762108-ae021ff5-170e-4464-a877-c3c2c88cd327.png)
