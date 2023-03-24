@@ -6,3 +6,6 @@ Akash Rohit, 4564165416, akash@gmail.com, 22, 256156.265
 Nisha Jatiya, 458125158, nisha@gmail.com, 45, 854.54
 Rajiv Ghandhi, 52945185, rajiv@gmail.com, 78, 59854.485
 Akshada Pharande, 1234567893, akshu@gmail.com, 23, 541854.0
+Anju Ahire, 1234567890, anju@gmail.com, 17, 6347353.32
+Aman Singh, 1234567892, aman@gmail.com, 47, 764322.0
+Ram Charan, 1234567890, ram@gmail.com, 32, 634742.0

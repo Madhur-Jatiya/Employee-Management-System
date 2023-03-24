@@ -1,4 +1,4 @@
-package demo;
+package employeemanagmentsystem;
 
 public class Employee {
 
@@ -50,7 +50,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return name + ", " + mobileNumber + ", " + emailId + ", " + age + ", " + salary;
+        return "Name=" + name + ", Mobile Number=" + mobileNumber + ", Email Id=" + emailId + ", Age=" + age + ", Salary=" + salary;
     }
 
     public Employee() {
