@@ -12,7 +12,7 @@ public class EmployeeOperations {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         EmployeeOperations employeeOperations = new EmployeeOperations();
-        System.out.println("\t\tWelcome to Employee Management System \n\n");
+        System.err.println("\t\tWelcome to Employee Management System \n\n");
         while (true) {
 
             System.out.println("1. View all employees");
@@ -27,26 +27,26 @@ public class EmployeeOperations {
 
             switch (choice) {
                 case 1:
-                    System.out.println("\n \t\t List of all employees \n");
+                    System.err.println("\n \t\t List of all employees \n");
                     employeeOperations.getAllEmployees();
                     break;
                 case 2:
                     employeeOperations.addNewEmployees();
-                    System.out.println("\nNew Employees added successfully\n");
+                    System.err.println("\nNew Employees added successfully\n");
                     break;
                 case 3:
                     employeeOperations.addToList(choice);
-                    System.out.println("\nEmployee information updated successfully\n");
+                    System.err.println("\nEmployee information updated successfully\n");
                     break;
                 case 4:
                     employeeOperations.addToList(choice);
-                    System.out.println("\nEmployee Deleted");
+                    System.err.println("\nEmployee Deleted");
                     break;
                 case 5:
-                    System.out.println("\n\t\t Thanks for visit Employee Management System ");
+                    System.err.println("\n\t\t Thanks for visit Employee Management System ");
                     return;
                 default:
-                    System.out.println("\n Invalid choice. Please try again.\n");
+                    System.err.println("\n Invalid choice. Please try again.\n");
                     break;
             }
         }
@@ -87,7 +87,7 @@ public class EmployeeOperations {
             BufferedReader reader = new BufferedReader(new FileReader("files\\employee.txt"));
             String line = reader.readLine();
             if (line == null) {
-                System.out.println("No Employee are present\n");
+                System.err.println("No Employee are present\n");
             }
             int count = 0;
             while (line != null) {
@@ -109,7 +109,7 @@ public class EmployeeOperations {
             BufferedReader reader = new BufferedReader(new FileReader("files\\employee.txt"));
             String line = reader.readLine();
             if (line == null) {
-                System.out.println("No Employee are present\n");
+                System.err.println("No Employee are present\n");
             }
             System.out.print("\n Enter Employee Number = ");
             int empNo = sc.nextInt();
@@ -172,7 +172,7 @@ public class EmployeeOperations {
                 parts[4] = Double.toString(sc.nextDouble());
                 break;
             default:
-                System.out.println("\n Invalid choice. Please try again.\n");
+                System.err.println("\n Invalid choice. Please try again.\n");
                 return;
         }
 
